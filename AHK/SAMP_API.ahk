@@ -1,6 +1,6 @@
 #NoEnv 
 
-PATH_SAMP_API := PathCombine(A_ScriptDir, "..\..\bin\SAMPDEV.dll")
+PATH_SAMP_API := PathCombine(A_ScriptDir, "SAMPDEV.dll")
 
 hModule := DllCall("LoadLibrary", Str, PATH_SAMP_API)
 if(hModule == -1 || hModule == 0)
