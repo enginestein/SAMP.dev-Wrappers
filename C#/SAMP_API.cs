@@ -6,7 +6,7 @@ namespace SAMP_API
 {
     class API
     {
-        public const String PATH = "../bin/SAMPDEV.dll";
+        public const String PATH = "SAMPDEV.dll";
 
         
         [DllImport(PATH, CallingConvention = CallingConvention.Cdecl)]
