@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class API {
 
-    public static final String PATH = "../bin/SAMPDEV.dll";
+    public static final String PATH = "SAMPDEV.dll";
 
     static {
         System.loadLibrary(PATH);
