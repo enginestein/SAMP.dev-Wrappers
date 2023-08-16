@@ -22,7 +22,7 @@ export IsVehicleBoat, IsVehicleTrain, IsVehicleBike, HasWeaponIDClip, GetPlayerW
 export GetPlayerWeaponType, GetPlayerWeaponSlot, GetPlayerWeaponName, GetPlayerWeaponClip
 export GetPlayerWeaponTotalClip, GetPlayerWeaponState, GetPlayerWeaponAmmo, GetPlayerWeaponAmmoInClip
 
-const PATH = "../bin/SAMPDEV.dll"
+const PATH = ".SAMPDEV.dll"
 
 const SNDMSG = ccall(("SendChat", PATH), Int32, (Cstring,), stdlib="msvcrt")
 const ADDCHATMSG = ccall(("AddChatMessage", PATH), Int32, (Cstring,), stdlib="msvcrt")
